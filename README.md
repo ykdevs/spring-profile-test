@@ -18,5 +18,5 @@ DATA_DATA4=env DATA_DATA5=env SPRING_PROFILES_ACTIVE=dev ./gradlew bootRun -Pjvm
 
 結果
 
-[](images/image1.png)
+![](images/image1.png)
 

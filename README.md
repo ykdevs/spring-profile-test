@@ -11,6 +11,7 @@
 | data4 | application.propertiesに設定しつつ環境変数で指定       |
 | data5 | application.propertiesに設定しつつ環境変数と引数で指定  |
 
+実行方法
 
 ```shell
 DATA_DATA4=env DATA_DATA5=env SPRING_PROFILES_ACTIVE=dev ./gradlew bootRun -PjvmArgs="-Ddata.data5=args"
